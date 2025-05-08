@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coach Diet Turun Berat Badan</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Social Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --pink-light: #F9C4CD;
+      --pink:       #F69BA0;
+      --pink-dark:  #F37D84;
+      --red:        #DE3F2A;
+      --orange:     #E46F41;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .navbar .nav-link {
+      color: #333;
+      transition: color .3s;
+    }
+    .navbar .nav-link:hover {
+      color: var(--pink-dark);
+    }
+    .hero {
+      background: linear-gradient(135deg, var(--pink-light), var(--pink));
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.3;
+      background: url('assets/hero-bg.jpg') center/cover no-repeat;
+    }
+    .hero .container {
+      position: relative;
+      z-index: 1;
+      padding: 100px 0;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .btn-primary {
+      background: var(--red);
+      border: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform .3s, background .3s;
+    }
+    .btn-primary:hover {
+      background: var(--orange);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    }
+    .testimonial-img {
+        width: 300px;
+        height: 500px;
+      object-fit: contain;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 0.5rem;
+    }
+    .profile-card {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 1rem;
+    }
+    .profile-img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    .social-icons a {
+      margin: 0 .5rem;
+      font-size: 1.5rem;
+      color: var(--pink-dark);
+      transition: transform .3s, color .3s;
+    }
+    .social-icons a:hover {
+      color: var(--red);
+      transform: scale(1.1);
+    }
+    footer {
+      background: var(--pink-dark);
+      color: #fff;
+      padding: 2rem 0;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    footer a:hover {
+      color: var(--orange);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Coach Lami</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimoni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#coach">Coach</a></li>
+          <li class="nav-item ms-3"><a class="btn btn-primary text-white" href="http://bit.ly/Tanya_CoachLami">Hubungi Coach</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Banner -->
+  <section class="hero text-center" id="home">
+    <div class="container">
+      <h1>Raih Berat Badan Ideal dan Tubuh Sehatmu Sekarang</h1>
+      <p>Program diet terstruktur bersama coach profesional untuk hasil maksimal</p>
+      <a class="btn btn-primary btn-lg mt-4" href="http://bit.ly/Tanya_CoachLami">Hubungi Coach via WA</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-5" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-3">Mengapa Pilih Program Ini?</h2>
+          <p>Kami menawarkan rencana diet yang dipersonalisasi dan dukungan penuh untuk membantumu mencapai tujuan kesehatan dan berat badan ideal.</p>
+          <ul>
+            <li>Rencana makan disesuaikan</li>
+            <li>Tracking progress mingguan</li>
+            <li>Dukungan komunitas eksklusif</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="asset/Nutrition_share.jpg" class="img-fluid rounded shadow-sm" alt="Nutrition Plan">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-5 bg-light" id="testimonials">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Testimoni Peserta</h2>
+      <div id="testiCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img src="asset/testimoni1fix.jpeg" class="testimonial-img mx-auto d-block" alt="Peserta 1">
+            <blockquote class="blockquote mt-3">
+              <p>"Berhasil naik 10kg dengan nutrisi yang fantastis!"</p>
+              <footer class="blockquote-footer">Coach Lami</footer>
+            </blockquote>
+          </div>
+          <!-- <div class="carousel-item text-center">
+            <img src="assets/testi2.jpg" class="testimonial-img mx-auto d-block" alt="Peserta 2">
+            <blockquote class="blockquote mt-3">
+              <p>"Support coachnya luar biasa dan programnya mudah diikuti!"</p>
+              <footer class="blockquote-footer">Budi</footer>
+            </blockquote>
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testiCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testiCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coach Profile Section -->
+  <section class="py-5" id="coach">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Meet Your Coach</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="profile-card overflow-hidden">
+            <img src="asset/coach.jpeg" class="profile-img" alt="Coach Name">
+            <div class="p-4 text-center">
+              <h3 class="fw-bold">Coach Lami</h3>
+              <p>Certified Nutrition & Fitness Coach</p>
+              <a class="btn btn-primary mb-3" href="http://bit.ly/Tanya_CoachLami"fab fa-whatsapp"></i> Chat via WA</a>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2025 CoachLami. All rights reserved.</p>
+      <!-- <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p> -->
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
